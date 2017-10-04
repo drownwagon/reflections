@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    An easy access to the entire history makes such an indispensable tools to help
+you become an efficient programmer in tracking bugs, discovering any type of
+error before any yet foolproof documents, code can be fully deployed.    
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually choosing to commit is that it is easier to track changes
+when it was done as one commit per logical change. While the cons is that for
+commit that too small you should use one commit for each change since they are
+logically separate. In comparison with Google Docs, automatically saved versions,
+it is harder to keep track since there are too many changes made.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The commands git log allows you to view all previous commits history in a file, while git diff specifically compares between each separate commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would love to familiarize with the full functionality of version control in github.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git understand that you will be working with files, that span over multiple files,  and it helps to keep track of changes in one commit.
+
+ How might using version control make you more confident to make changes that could break something?
+
+ 	With version control, I can always revert back to the previous commit if anything goes wrong. But the definitive advantage is I can make big changes without breaking the code base. If without version control there's always the fear of changing the code base to significantly improve it, instead doing without it, and just making small incremental changes. 
