@@ -1,5 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	After you "git init" to initialize it as a repository. Git will help you to track any files changes that occured in that repository. 				
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
