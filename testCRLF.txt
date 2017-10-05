@@ -1,0 +1,9 @@
+#This is to test core.autocrlf
+
+Testing
+	Testing
+		Testing
+			Testing
+				Testing
+					Testing
+						Testing
