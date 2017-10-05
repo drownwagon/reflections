@@ -1,1 +1,3 @@
 Test staging area.
+
+Test commit in the new github format
