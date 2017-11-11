@@ -11,15 +11,23 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	By using "git diff --staged", you can see which changes that you will include in your commit. One commit per logical change is both, objective or subjective. Sometimes changes can occured within multiple files, and subjectively it make sense to group all those changes in one commit.  
+	By using "git diff --staged", you can see which changes that you will include in your commit. One commit per logical change is both, objective or subjective. Sometimes changes can occured within multiple files, and subjectively it make sense to group all those changes in one commit. Or objectively, if the changes accomplished the task you wanted, then one simple changes in a file is still logically considered.   
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Having branches helpful in keeping your history organized. Sometimes the changes you implement is not incremental, but a major one, like changing language, introducing new features or trying being experimental to improve the overall performance.  
+
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams help to visualize the branch structure to track which branches contain which commits. You may also choose to consider to introduce new branches for commits that wasn't tracked yet or to ignore it.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The results of merging two branches is often resulted in a conflict. This is because git could no do just guesswork to determine which modification files should be merge in the final version. The questions of merging branches to master, really requires author of contents to decide which modification should be in the final version. The diagram makes it easier to track the changes by the author, whom maybe working on a different branches and has modified content, but this would take considerable discussion before deciding which one would go in the final version.  
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	The pros of automatic merging is when you have commits to merge back to master. This constitutes in any commits you're merging, as being one logical unit per changes. While the cons of merging manually, happened when you're working on a branches. It could be one or more people are working on different branches, that's usually creates a merge conflicts.  
